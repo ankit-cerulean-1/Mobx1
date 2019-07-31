@@ -4,7 +4,7 @@ import {
   View,
   Text,
 } from 'react-native';
-import { Provider } from "mobx-react/native";
+import { Provider } from "mobx-react";
 import Home from './app/Home';
 import store from "./app/TestStore";
 
