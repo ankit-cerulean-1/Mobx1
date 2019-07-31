@@ -6,13 +6,13 @@ import {
 } from 'react-native';
 import { Provider } from "mobx-react/native";
 import Home from './app/Home';
-
+import store from "./app/TestStore";
 
 class App extends Component{
   
   render(){
     return (
-      <Provider  >
+      <Provider store={store}>
         <Home />
       </Provider>
     )
