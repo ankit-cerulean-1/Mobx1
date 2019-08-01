@@ -13,5 +13,4 @@ class TestStore {
   }
 }
 
-
 export default new TestStore();
