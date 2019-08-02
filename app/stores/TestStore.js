@@ -9,7 +9,7 @@ class TestStore {
   }
 
   @action toggleLoading() {
-    this.loading = this.loading ? false : true;
+    this.loading = !this.loading; // better use tennary ! for toggle
   }
 }
 

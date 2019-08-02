@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true // for remove warning decoration in your class name
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
